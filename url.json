@@ -2,7 +2,7 @@
   "AniEvo-ID_webApps": [
     {
       "id": 1,
-      "title": "AniEvo ID — Auth",
+      "title": "Auth — AniEvo ID",
       "slug": "anievo-id-auth",
       "domains": {
         "production": "https://auth.anievo.id/",
@@ -67,7 +67,7 @@
     },
     {
       "id": 2,
-      "title": "AniEvo ID — Money Tracker",
+      "title": "Money Tracker — AniEvo ID",
       "slug": "anievo-id-money-tracker",
       "domains": {
         "production": "https://money-tracker.anievo.id/",
