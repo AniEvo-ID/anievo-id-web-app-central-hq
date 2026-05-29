@@ -3,38 +3,338 @@
     {
       "id": 1,
       "title": "AniEvo ID — Auth",
-      "url": "https://auth.anievo.id/",
-      "alias": "anievo-id-auth",
-      "github": "https://github.com/AniEvo-ID/anievo-id-auth",
-      "docs": "https://docs-auth.anievo.id",
-      "shortDesc": "",
-      "desc": "",
-      "about": "Integrated authentication platform for the AniEvo ID ecosystem",
-      "keywords": ["AniEvo", "SSO", "Community", "Auth", "OAuth", "OIDC", "JWT"],
-      "authors": [{ "name": "AniEvo ID" }],
-      "icon": {
-        "icon": "/favicon.ico",
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+      "slug": "anievo-id-auth",
+      "domains": {
+        "production": "https://auth.anievo.id/",
+        "staging": "https://staging.auth.anievo.id/",
+        "development": "http://localhost:4004/"
       },
-      "type": "public",
+      "repository": {
+        "github": "https://github.com/AniEvo-ID/anievo-id-auth",
+        "branch": "main",
+        "language": ["TypeScript", "Node.js"],
+        "framework": "NextJS 14"
+      },
+      "documentation": {
+        "public": "https://docs-auth.anievo.id",
+        "internal": "https://internal-docs.anievo.id/projects/auth"
+      },
+      "descriptions": {
+        "short": "SSO & authentication platform for AniEvo ID ecosystem",
+        "long": "Centralized identity and access management platform that provides OAuth 2.0, OpenID Connect, and JWT-based authentication for all AniEvo ID services. Features single sign-on, multi-factor authentication, role-based access control, and detailed audit logs.",
+        "about": "Integrated authentication platform that unifies user management across the entire AniEvo ID ecosystem, enabling secure and seamless access to all community services."
+      },
+      "keywords": ["AniEvo", "SSO", "Authentication", "OAuth2", "OIDC", "JWT", "IAM", "Identity Management"],
+      "maintainers": [
+        {
+          "name": "AniEvo ID Core Team",
+          "role": "Lead Maintainer",
+          "github": "https://github.com/AniEvo-ID"
+        }
+      ],
+      "assets": {
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": "https://assets.anievo.id/logos/auth-logo.svg",
+        "thumbnail": "https://assets.anievo.id/thumbnails/auth-thumbnail.jpg"
+      },
+      "metadata": {
+        "type": "public",
+        "status": "production",
+        "createdAt": "2021-03-15T00:00:00Z",
+        "lastUpdated": "2024-01-20T00:00:00Z",
+        "version": "2.1.0"
+      },
+      "features": [
+        "Single Sign-On (SSO)",
+        "Multi-Factor Authentication (MFA)",
+        "OAuth 2.0 & OpenID Connect",
+        "Role-Based Access Control (RBAC)",
+        "User Directory Management",
+        "Audit Logging & Monitoring",
+        "API Key Management",
+        "Social Login Integration"
+      ],
+      "dependencies": [
+        "anievo-id-core",
+        "postgresql",
+        "redis"
+      ],
+      "access": {
+        "requiresAuth": false,
+        "openRegistration": true,
+        "regions": ["ID", "Global"]
+      }
     },
     {
       "id": 2,
       "title": "AniEvo ID — Money Tracker",
-      "url": "https://money-tracker.anievo.id/",
-      "alias": "anievo-id-money-tracker",
-      "github": "https://github.com/AniEvo-ID/anievo-id-money-tracker",
-      "docs": "https://docs-money-tracker.anievo.id",
-      "shortDesc": "",
-      "desc": "",
-      "about": "Track income, expenses, wallets, and public tenant reports with AniEvo ID Money Tracker",
-      "keywords": ["AniEvo", "SSO", "Community", "Money Tracker", "Finance", "Wallets", "Tenants"],
-      "authors": [{ "name": "AniEvo ID" }],
-      "icon": {
-        "icon": "/favicon.ico",
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+      "slug": "anievo-id-money-tracker",
+      "domains": {
+        "production": "https://money-tracker.anievo.id/",
+        "staging": "https://staging.money-tracker.anievo.id/",
+        "development": "http://localhost:4003/"
       },
-      "type": "public"
+      "repository": {
+        "github": "https://github.com/AniEvo-ID/anievo-id-money-tracker",
+        "branch": "main",
+        "language": ["TypeScript", "Node.js"],
+        "framework": "NextJS 14"
+      },
+      "documentation": {
+        "public": "https://docs-money-tracker.anievo.id",
+        "internal": "https://internal-docs.anievo.id/projects/money-tracker"
+      },
+      "descriptions": {
+        "short": "Community finance management & expense tracking platform",
+        "long": "Comprehensive financial tracking tool for AniEvo ID community members and organizational tenants. Track personal and shared expenses, manage multiple wallets, generate financial reports, and collaborate on budget management with real-time updates.",
+        "about": "Track income, expenses, wallets, and public tenant reports to bring transparency and accountability to AniEvo ID community financial management."
+      },
+      "keywords": ["AniEvo", "Finance", "Money Tracker", "Expense Management", "Budgeting", "Wallets", "Tenant Reporting", "Accounting"],
+      "maintainers": [
+        {
+          "name": "AniEvo ID Finance Team",
+          "role": "Lead Maintainer",
+          "github": "https://github.com/AniEvo-ID"
+        }
+      ],
+      "assets": {
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": "https://assets.anievo.id/logos/money-tracker-logo.svg",
+        "thumbnail": "https://assets.anievo.id/thumbnails/money-tracker-thumbnail.jpg"
+      },
+      "metadata": {
+        "type": "public",
+        "status": "production",
+        "createdAt": "2022-06-10T00:00:00Z",
+        "lastUpdated": "2024-01-15T00:00:00Z",
+        "version": "1.5.0"
+      },
+      "features": [
+        "Income & Expense Tracking",
+        "Multi-wallet Management",
+        "Tenant-based Financial Reporting",
+        "Receipt Upload & Storage",
+        "Budget Setting & Alerts",
+        "Shared Expense Splitting",
+        "CSV/PDF Export",
+        "Real-time Collaboration",
+        "Public Transparency Dashboards",
+        "Transaction Categorization"
+      ],
+      "dependencies": [
+        "anievo-id-core",
+        "anievo-id-auth",
+        "postgresql",
+        "minio"
+      ],
+      "access": {
+        "requiresAuth": true,
+        "openRegistration": false,
+        "regions": ["ID"]
+      }
     },
+    {
+      "id": 3,
+      "title": "AniEvo ID — Calendar",
+      "slug": "anievo-id-calendar",
+      "domains": {
+        "production": "https://calendar.anievo.id/",
+        "staging": "https://staging.calendar.anievo.id/",
+        "development": "http://localhost:4005/"
+      },
+      "repository": {
+        "github": "https://github.com/AniEvo-ID/anievo-id-calendar",
+        "branch": "main",
+        "language": ["TypeScript", "Node.js"],
+        "framework": "NextJS 14"
+      },
+      "documentation": {
+        "public": "https://docs-calendar.anievo.id",
+        "internal": "https://internal-docs.anievo.id/projects/calendar"
+      },
+      "descriptions": {
+        "short": "Community event calendar & scheduling platform for AniEvo ID",
+        "long": "Comprehensive event management platform that allows AniEvo ID community members to create, share, and register for community events. Features calendar synchronization, event reminders, ticketing integration, and collaborative scheduling for community organizers.",
+        "about": "Centralized hub for all AniEvo ID community events, from local meetups to large conventions, making it easy for members to stay connected and participate in community activities."
+      },
+      "keywords": ["AniEvo", "Calendar", "Events", "Scheduling", "Community", "Ticketing", "Reminders", "Organizer"],
+      "maintainers": [
+        {
+          "name": "AniEvo ID Events Team",
+          "role": "Lead Maintainer",
+          "github": "https://github.com/AniEvo-ID"
+        }
+      ],
+      "assets": {
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": "https://assets.anievo.id/logos/calendar-logo.svg",
+        "thumbnail": "https://assets.anievo.id/thumbnails/calendar-thumbnail.jpg"
+      },
+      "metadata": {
+        "type": "public",
+        "status": "production",
+        "createdAt": "2023-01-10T00:00:00Z",
+        "lastUpdated": "2024-01-18T00:00:00Z",
+        "version": "1.3.0"
+      },
+      "features": [
+        "Event Creation & Management",
+        "Calendar Synchronization (Google, Apple, Outlook)",
+        "Event Registration & Ticketing",
+        "Automated Reminders & Notifications",
+        "Recurring Event Support",
+        "Collaborative Event Planning",
+        "Public Event Calendars",
+        "Attendee Tracking & Check-in",
+        "Virtual Event Integration",
+        "Location Mapping & Directions"
+      ],
+      "dependencies": [
+        "anievo-id-core",
+        "anievo-id-auth",
+        "postgresql",
+        "redis"
+      ],
+      "access": {
+        "requiresAuth": true,
+        "openRegistration": true,
+        "regions": ["ID", "Global"]
+      }
+    },
+    {
+      "id": 4,
+      "title": "AniEvo ID — Official Website",
+      "slug": "anievo-id-main-website",
+      "domains": {
+        "production": "https://anievo.id/",
+        "staging": "https://staging.anievo.id/",
+        "development": "http://localhost:3000/"
+      },
+      "repository": {
+        "github": "https://github.com/AniEvo-ID/anievo-id-website",
+        "branch": "main",
+        "language": ["TypeScript", "Node.js"],
+        "framework": "NextJS 14"
+      },
+      "documentation": {
+        "public": "https://docs.anievo.id",
+        "internal": "https://internal-docs.anievo.id/projects/website"
+      },
+      "descriptions": {
+        "short": "Official news portal and main website of AniEvo ID",
+        "long": "The primary web presence for AniEvo ID, featuring the latest news, articles, community updates, and information about the organization. Publishes content related to anime, culture, community events, and organizational announcements for Indonesian anime fans and community members.",
+        "about": "The official home of AniEvo ID on the web, delivering news, stories, and updates to the Indonesian anime and pop-culture community while serving as the gateway to all AniEvo ID services."
+      },
+      "keywords": ["AniEvo", "News", "Website", "Blog", "Portal", "Community Updates", "Anime News", "Indonesia"],
+      "maintainers": [
+        {
+          "name": "AniEvo ID Content & Web Team",
+          "role": "Lead Maintainer",
+          "github": "https://github.com/AniEvo-ID"
+        }
+      ],
+      "assets": {
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": "https://assets.anievo.id/logos/anievo-logo.svg",
+        "thumbnail": "https://assets.anievo.id/thumbnails/website-thumbnail.jpg"
+      },
+      "metadata": {
+        "type": "public",
+        "status": "production",
+        "createdAt": "2020-05-01T00:00:00Z",
+        "lastUpdated": "2024-01-22T00:00:00Z",
+        "version": "3.0.0"
+      },
+      "features": [
+        "News & Article Publishing",
+        "Content Management System",
+        "Comment & Discussion System",
+        "Newsletter Subscription",
+        "Multimedia Content Support (Images, Videos)",
+        "Search & Filtering Functionality",
+        "Social Media Integration",
+        "SEO Optimized",
+        "Mobile Responsive Design",
+        "Multi-language Support"
+      ],
+      "dependencies": [
+        "anievo-id-core",
+        "postgresql",
+        "cloudflare"
+      ],
+      "access": {
+        "requiresAuth": false,
+        "openRegistration": false,
+        "regions": ["ID", "Global"]
+      }
+    },
+    {
+      "id": 5,
+      "title": "AniRank ID — Voting Platform",
+      "slug": "anirank-id-voting",
+      "domains": {
+        "production": "https://anirank.id/",
+        "staging": "https://staging.anirank.id/",
+        "development": "http://localhost:4006/"
+      },
+      "repository": {
+        "github": "https://github.com/AniEvo-ID/anirank-id",
+        "branch": "main",
+        "language": ["TypeScript", "Node.js"],
+        "framework": "NextJS 14"
+      },
+      "documentation": {
+        "public": "https://docs-anirank.anievo.id",
+        "internal": "https://internal-docs.anievo.id/projects/anirank"
+      },
+      "descriptions": {
+        "short": "Anime ranking & community voting platform by AniEvo ID",
+        "long": "Community-driven voting and ranking platform that allows AniEvo ID members to vote for their favorite anime, characters, voice actors, and more. Features seasonal rankings, annual awards, real-time vote counting, and transparent election processes for all community polls.",
+        "about": "AniRank ID gives AniEvo ID community members a voice in annual and seasonal rankings, creating fair and transparent popularity contests that celebrate the best of anime and pop-culture as chosen by Indonesian fans."
+      },
+      "keywords": ["AniRank", "AniEvo", "Voting", "Ranking", "Polls", "Awards", "Anime Rankings", "Community Election"],
+      "maintainers": [
+        {
+          "name": "AniEvo ID AniRank Team",
+          "role": "Lead Maintainer",
+          "github": "https://github.com/AniEvo-ID"
+        }
+      ],
+      "assets": {
+        "favicon": "https://anirank.id/favicon.ico",
+        "logo": "https://assets.anievo.id/logos/anirank-logo.svg",
+        "thumbnail": "https://assets.anievo.id/thumbnails/anirank-thumbnail.jpg"
+      },
+      "metadata": {
+        "type": "public",
+        "status": "production",
+        "createdAt": "2022-10-05T00:00:00Z",
+        "lastUpdated": "2024-01-10T00:00:00Z",
+        "version": "2.0.0"
+      },
+      "features": [
+        "Secure One-Person-One-Vote System",
+        "Seasonal Anime Rankings",
+        "Annual Community Awards",
+        "Real-time Vote Tracking & Leaderboards",
+        "Custom Poll Creation for Organizers",
+        "Vote Verification & Anti-Bot Measures",
+        "Transparent Vote Counting",
+        "Historical Rankings Archive",
+        "Shareable Ranking Results",
+        "Nomination System for Awards"
+      ],
+      "dependencies": [
+        "anievo-id-core",
+        "anievo-id-auth",
+        "postgresql",
+        "redis"
+      ],
+      "access": {
+        "requiresAuth": true,
+        "openRegistration": true,
+        "regions": ["ID", "Global"]
+      }
+    }
   ]
 }
