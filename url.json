@@ -1,0 +1,40 @@
+{
+  "AniEvo-ID_webApps": [
+    {
+      "id": 1,
+      "title": "AniEvo ID — Auth",
+      "url": "https://auth.anievo.id/",
+      "alias": "anievo-id-auth",
+      "github": "https://github.com/AniEvo-ID/anievo-id-auth",
+      "docs": "https://docs-auth.anievo.id",
+      "shortDesc": "",
+      "desc": "",
+      "about": "Integrated authentication platform for the AniEvo ID ecosystem",
+      "keywords": ["AniEvo", "SSO", "Community", "Auth", "OAuth", "OIDC", "JWT"],
+      "authors": [{ "name": "AniEvo ID" }],
+      "icon": {
+        "icon": "/favicon.ico",
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+      },
+      "type": "public",
+    },
+    {
+      "id": 2,
+      "title": "AniEvo ID — Money Tracker",
+      "url": "https://money-tracker.anievo.id/",
+      "alias": "anievo-id-money-tracker",
+      "github": "https://github.com/AniEvo-ID/anievo-id-money-tracker",
+      "docs": "https://docs-money-tracker.anievo.id",
+      "shortDesc": "",
+      "desc": "",
+      "about": "Track income, expenses, wallets, and public tenant reports with AniEvo ID Money Tracker",
+      "keywords": ["AniEvo", "SSO", "Community", "Money Tracker", "Finance", "Wallets", "Tenants"],
+      "authors": [{ "name": "AniEvo ID" }],
+      "icon": {
+        "icon": "/favicon.ico",
+        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
+      },
+      "type": "public"
+    },
+  ]
+}
