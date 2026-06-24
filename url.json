@@ -33,9 +33,12 @@
         }
       ],
       "assets": {
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
-        "logo": "https://assets.anievo.id/logos/auth-logo.svg",
-        "thumbnail": "https://assets.anievo.id/thumbnails/auth-thumbnail.jpg"
+        "favicon": "https://cdn-assets.anievo.id/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": {
+          "white": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.White_Red.png",
+          "dark": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.Black_Red.png"
+        },
+        "thumbnail": "https://cdn-assets.anievo.id/2023/02/307931933_428267609296212_5927951473866927155_n.jpg"
       },
       "metadata": {
         "type": "public",
@@ -98,9 +101,12 @@
         }
       ],
       "assets": {
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
-        "logo": "https://assets.anievo.id/logos/money-tracker-logo.svg",
-        "thumbnail": "https://assets.anievo.id/thumbnails/money-tracker-thumbnail.jpg"
+        "favicon": "https://cdn-assets.anievo.id/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": {
+          "white": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.White_Red.png",
+          "dark": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.Black_Red.png"
+        },
+        "thumbnail": "https://cdn-assets.anievo.id/2023/02/307931933_428267609296212_5927951473866927155_n.jpg"
       },
       "metadata": {
         "type": "public",
@@ -166,9 +172,12 @@
         }
       ],
       "assets": {
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
-        "logo": "https://assets.anievo.id/logos/calendar-logo.svg",
-        "thumbnail": "https://assets.anievo.id/thumbnails/calendar-thumbnail.jpg"
+        "favicon": "https://cdn-assets.anievo.id/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": {
+          "white": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.White_Red.png",
+          "dark": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.Black_Red.png"
+        },
+        "thumbnail": "https://cdn-assets.anievo.id/2023/02/307931933_428267609296212_5927951473866927155_n.jpg"
       },
       "metadata": {
         "type": "public",
@@ -234,9 +243,12 @@
         }
       ],
       "assets": {
-        "favicon": "https://anievo.id/wp-content/uploads/2020/11/sklfgs9d76fdfk34g5.jpeg",
-        "logo": "https://assets.anievo.id/logos/anievo-logo.svg",
-        "thumbnail": "https://assets.anievo.id/thumbnails/website-thumbnail.jpg"
+        "favicon": "https://cdn-assets.anievo.id/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": {
+          "white": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.White_Red.png",
+          "dark": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.Black_Red.png"
+        },
+        "thumbnail": "https://cdn-assets.anievo.id/2023/02/307931933_428267609296212_5927951473866927155_n.jpg"
       },
       "metadata": {
         "type": "public",
@@ -301,9 +313,12 @@
         }
       ],
       "assets": {
-        "favicon": "https://anirank.id/favicon.ico",
-        "logo": "https://assets.anievo.id/logos/anirank-logo.svg",
-        "thumbnail": "https://assets.anievo.id/thumbnails/anirank-thumbnail.jpg"
+        "favicon": "https://cdn-assets.anievo.id/2020/11/sklfgs9d76fdfk34g5.jpeg",
+        "logo": {
+          "white": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.White_Red.png",
+          "dark": "https://cdn-assets.anievo.id/2024/04/AniEvo.Logo_.Black_Red.png"
+        },
+        "thumbnail": "https://cdn-assets.anievo.id/2023/02/307931933_428267609296212_5927951473866927155_n.jpg"
       },
       "metadata": {
         "type": "public",
