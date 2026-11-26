@@ -144,12 +144,12 @@
       "title": "AniEvo ID — Calendar",
       "slug": "anievo-id-calendar",
       "domains": {
-        "production": "https://calendar.anievo.id/",
+        "production": "https://event.anievo.id/",
         "staging": "https://staging.calendar.anievo.id/",
         "development": "http://localhost:4005/"
       },
       "repository": {
-        "github": "https://github.com/AniEvo-ID/anievo-id-calendar",
+        "github": "https://github.com/AniEvo-ID/anievo-id-event-next-js",
         "branch": "main",
         "language": ["TypeScript", "Node.js"],
         "framework": "NextJS 14"
