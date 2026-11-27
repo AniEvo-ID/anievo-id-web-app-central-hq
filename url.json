@@ -141,7 +141,7 @@
     },
     {
       "id": 3,
-      "title": "AniEvo ID — Calendar",
+      "title": "AniEvo ID — Event",
       "slug": "anievo-id-calendar",
       "domains": {
         "production": "https://event.anievo.id/",
